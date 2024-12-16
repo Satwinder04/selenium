@@ -1,0 +1,9 @@
+open browser
+pass url "https"
+capture the text box
+send values "selenium"
+send values
+validate
+
+https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj3hI6p4quKAxVCzjgGHfqgC7gQPAgI
+textbox=driver.find_element(By.NAME)
