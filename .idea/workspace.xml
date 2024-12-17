@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d878119-f0dd-425c-9a64-daf10ba13baa" name="Changes" comment="16/12/2024">
+    <list default="true" id="4d878119-f0dd-425c-9a64-daf10ba13baa" name="Changes" comment="18/12/2024">
       <change afterPath="$PROJECT_DIR$/Project/mushopLogin.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Project/myShopAuth.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Project/myshopContact.py" afterDir="false" />
@@ -97,11 +97,20 @@
       <option name="project" value="LOCAL" />
       <updated>1734361689090</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="18/12/2024">
+      <option name="closed" value="true" />
+      <created>1734468318840</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734468318840</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="16/12/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="16/12/2024" />
+    <MESSAGE value="18/12/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="18/12/2024" />
   </component>
 </project>
