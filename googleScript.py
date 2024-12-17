@@ -16,7 +16,7 @@
 # driver=webdriver.Chrome(service=service_obj)
 # driver.get("https://www.google.com/")
 # textbox=driver.find_element(By.NAME,"q")
-# vl="amar"
+# vl="selenium"
 # textbox.send_keys(vl)
 # time.sleep(5)
 # click=driver.find_element(By.NAME,"btnK")
@@ -28,7 +28,7 @@
 #     print("test pass")
 # else:
 #     print("test fail")
-#
+
 #
 # import time
 #

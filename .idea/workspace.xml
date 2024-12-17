@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d878119-f0dd-425c-9a64-daf10ba13baa" name="Changes" comment="16/12/2024">
+      <change afterPath="$PROJECT_DIR$/Project/mushopLogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/myShopAuth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/myshopContact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/myShop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/portfolio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/practice01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/webScraping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/googleScript.py" beforeDir="false" afterPath="$PROJECT_DIR$/googleScript.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/orangeHRM.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/orangeHRM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,23 +32,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Satwinder04"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Satwinder04&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Satwinder04/selenium.git",
-    "accountId": "2e7d80ba-0e7a-4cd4-a91c-c535b98bb1d7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Satwinder04/selenium.git&quot;,
+    &quot;accountId&quot;: &quot;2e7d80ba-0e7a-4cd4-a91c-c535b98bb1d7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2qHshp66u4VYLKRtzXBGqixR4pP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,6 +58,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.googleScript.executor&quot;: &quot;Run&quot;,
+    &quot;Python.myShop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.orangeHRM.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
@@ -75,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734361600950</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="16/12/2024">
+      <option name="closed" value="true" />
+      <created>1734361689090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734361689090</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
