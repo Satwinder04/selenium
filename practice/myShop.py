@@ -10,7 +10,7 @@
 # driver=webdriver.Chrome(service=sobj)
 # driver.get("http://www.automationpractice.pl/index.php")
 # searchBox=driver.find_element(By.ID,"search_query_top")
-# searchBox.send_keys("tshirt")
+# searchBox.send_keys("search box")
 # time.sleep(2)
 # clk=driver.find_element(By.NAME,"submit_search")
 # clk.click()

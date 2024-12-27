@@ -11,34 +11,36 @@ dr.get("http://www.automationpractice.pl/index.php?controller=authentication&bac
 
 sEmail=dr.find_element(By.ID,"email_create")
 sEmail.send_keys("satwinder@gmail.com")
-time.sleep(3)
+# time.sleep(3)
 
 dr.find_element(By.ID,"SubmitCreate").click()
-time.sleep(3)
+# time.sleep(3)
 
 # --------------------
 sGender=dr.find_elements(By.NAME,"id_gender")
 sGender[0].click()
-time.sleep(3)
+# time.sleep(3)
 
 sName=dr.find_element(By.ID,"customer_firstname")
 sName.send_keys("Satwinder")
-time.sleep(3)
+# time.sleep(3)
 
 lName=dr.find_element(By.ID,"customer_lastname")
 lName.send_keys("Singh")
-time.sleep(3)
+# time.sleep(3)
 
-ssEmail=dr.find_element(By.ID,"email")
-ssEmail.send_keys("satwinder@gmail.com")
-time.sleep(3)
+# dr.find_element(By.ID,"email").clear()
+# ssEmail=dr.find_element(By.ID,"email")
+# ssEmail.send_keys("satwinder@gmail.com")
+# time.sleep(3)
 
 ssPassword=dr.find_element(By.ID,"passwd")
 ssPassword.send_keys("test1")
-time.sleep(3)
+# time.sleep(3)
 
-# days=dr.find_element(By.ID,"days")
+days=dr.find_element(By.CSS_SELECTOR,"")
 
 
 Register=dr.find_element(By.ID,"submitAccount")
 Register.click()
+time.sleep(5)
