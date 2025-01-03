@@ -3,7 +3,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.expected_conditions import element_to_be_selected
+# from selenium.webdriver.support.expected_conditions import element_to_be_selected
 
 serviceObj = Service(r"D:\BEBO-tech\drivers\chromedriver-win64\chromedriver.exe")
 dr = webdriver.Chrome(service=serviceObj)
