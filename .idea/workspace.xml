@@ -4,23 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d878119-f0dd-425c-9a64-daf10ba13baa" name="Changes" comment="30/12/2024">
-      <change afterPath="$PROJECT_DIR$/Table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coockies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataDriven/swaglabs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datepicker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headless.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mouseAndKeyboard/keys.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mouseAndKeyboard/mouse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mouseAndKeyboard/scroller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mouseAndKeyboard/slider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mouseAndKeyboard/tabswtch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/practice10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshort/ss.py" afterDir="false" />
+    <list default="true" id="4d878119-f0dd-425c-9a64-daf10ba13baa" name="Changes" comment="03/1/2025">
+      <change afterPath="$PROJECT_DIR$/dataDriven/DDT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataDriven/bebo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataDriven/intrest/intrest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataDriven/intrest/intrst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/UPLOAD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/downloadFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/practice11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfpractice/clickcounter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScriptAlerts.py" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScriptAlerts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/isdisplay.py" beforeDir="false" afterPath="$PROJECT_DIR$/isdisplay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/selfpractice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/selfpractice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mouseAndKeyboard/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/mouseAndKeyboard/keys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mouseAndKeyboard/mouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/mouseAndKeyboard/mouse.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +61,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.NodeRltn.executor": "Run",
+    "Python.XLUtils.executor": "Run",
     "Python.XPath.executor": "Run",
+    "Python.bebo.executor": "Run",
+    "Python.clickcounter.executor": "Run",
     "Python.datepicker.executor": "Run",
     "Python.googleScript.executor": "Run",
+    "Python.intrst.executor": "Run",
     "Python.keys.executor": "Run",
     "Python.locators.executor": "Run",
     "Python.mouse.executor": "Run",
@@ -78,10 +77,13 @@
     "Python.orangeHRM.executor": "Run",
     "Python.portfolio.executor": "Run",
     "Python.practice10.executor": "Run",
+    "Python.practice11.executor": "Run",
     "Python.practice2.executor": "Run",
     "Python.q8.executor": "Run",
     "Python.request.executor": "Run",
     "Python.scroller.executor": "Run",
+    "Python.selfpractice.executor": "Run",
+    "Python.swaglabs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "preferences.keymap"
@@ -159,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735537906472</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="03/1/2025">
+      <option name="closed" value="true" />
+      <created>1735930138103</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735930138103</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -167,6 +177,7 @@
     <MESSAGE value="18/12/2024" />
     <MESSAGE value="27/12/2024" />
     <MESSAGE value="30/12/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="30/12/2024" />
+    <MESSAGE value="03/1/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="03/1/2025" />
   </component>
 </project>

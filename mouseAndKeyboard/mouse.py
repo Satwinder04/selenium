@@ -1,26 +1,26 @@
-# import time
-#
-# from selenium import webdriver
-# from selenium.webdriver import ActionChains
-# from selenium.webdriver.common.by import By
-#
-# driver=webdriver.Chrome()
-# driver.get("https://demo.nopcommerce.com/")
-#
-# computer=driver.find_element(By.XPATH,"//ul[@class='top-menu notmobile']//a[normalize-space()='Computers']")
-# notebook=driver.find_element(By.XPATH,"//ul[@class='top-menu notmobile']//a[normalize-space()='Notebooks']")
-# action=ActionChains(driver)
-# action.move_to_element(computer).move_to_element(notebook).click().perform()
-# time.sleep(10)
-#
-# exp="Notebooks"
-# act=driver.find_element(By.XPATH,"//h1[normalize-space()='Notebooks']").text
-#
-# if exp==act:
-#     print("pass")
-# else:
-#     print("fail")
-#
+import time
+
+from selenium import webdriver
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.by import By
+
+driver=webdriver.Chrome()
+driver.get("https://demo.nopcommerce.com/")
+
+computer=driver.find_element(By.XPATH,"//ul[@class='top-menu notmobile']//a[normalize-space()='Computers']")
+notebook=driver.find_element(By.XPATH,"//ul[@class='top-menu notmobile']//a[normalize-space()='Notebooks']")
+action=ActionChains(driver)
+action.move_to_element(computer).move_to_element(notebook).click().perform()
+time.sleep(10)
+
+exp="Notebooks"
+act=driver.find_element(By.XPATH,"//h1[normalize-space()='Notebooks']").text
+
+if exp==act:
+    print("pass")
+else:
+    print("fail")
+
 #
 # import time
 #
