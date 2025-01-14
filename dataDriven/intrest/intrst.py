@@ -57,3 +57,4 @@ for r in range(2,rows+1):
                 writeData(file,s1,r,8,"Failed")
         # time.sleep(1)
     driver.find_element(By.XPATH,'//*[@id="fdMatVal"]/div[2]/a[2]').click()
+print("Go, and check Exl File")

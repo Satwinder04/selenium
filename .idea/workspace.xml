@@ -4,18 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d878119-f0dd-425c-9a64-daf10ba13baa" name="Changes" comment="03/1/2025">
-      <change afterPath="$PROJECT_DIR$/dataDriven/DDT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataDriven/bebo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataDriven/intrest/intrest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataDriven/intrest/intrst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download/UPLOAD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download/downloadFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/practice11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selfpractice/clickcounter.py" afterDir="false" />
+    <list default="true" id="4d878119-f0dd-425c-9a64-daf10ba13baa" name="Changes" comment="09/01/2025">
+      <change afterPath="$PROJECT_DIR$/OrangeHRM/XLUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrangeHRM/aman/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrangeHRM/logIn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataDriven/intrest/DBintrest/dbinrst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataDriven/intrest/DBintrest/dbint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/db1/youtube.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/logfile.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/test_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/test_dependency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/test_grouping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/test_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/test_skip.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mouseAndKeyboard/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/mouseAndKeyboard/keys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mouseAndKeyboard/mouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/mouseAndKeyboard/mouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataDriven/intrest/intrst.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataDriven/intrest/intrst.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataDriven/intrest/simple_interest_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/dataDriven/intrest/simple_interest_data.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +67,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_grouping.TestCase.executor": "Run",
+    "Python tests.Python tests in test_grouping.py.executor": "Run",
     "Python.NodeRltn.executor": "Run",
     "Python.XLUtils.executor": "Run",
     "Python.XPath.executor": "Run",
     "Python.bebo.executor": "Run",
     "Python.clickcounter.executor": "Run",
     "Python.datepicker.executor": "Run",
+    "Python.dbinrst.executor": "Run",
+    "Python.dbint.executor": "Debug",
     "Python.googleScript.executor": "Run",
     "Python.intrst.executor": "Run",
     "Python.keys.executor": "Run",
@@ -84,11 +95,64 @@
     "Python.scroller.executor": "Run",
     "Python.selfpractice.executor": "Run",
     "Python.swaglabs.executor": "Run",
+    "Python.test1.executor": "Run",
+    "Python.youtube.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "last_opened_file_path": "D:/BEBO-tech/Selenium/Selenium/OrangeHRM",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BEBO-tech\Selenium\Selenium\OrangeHRM" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="youtube" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database/db1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/db1/youtube.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_grouping.TestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/framwork" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_grouping.TestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_grouping.TestCase" />
+        <item itemvalue="Python.youtube" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -169,7 +233,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735930138103</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="09/01/2025">
+      <option name="closed" value="true" />
+      <created>1736371373325</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736371373325</updated>
+    </task>
+    <task id="LOCAL-00010" summary="09/01/2025">
+      <option name="closed" value="true" />
+      <created>1736371393442</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736371393442</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +258,7 @@
     <MESSAGE value="27/12/2024" />
     <MESSAGE value="30/12/2024" />
     <MESSAGE value="03/1/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="03/1/2025" />
+    <MESSAGE value="09/01/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="09/01/2025" />
   </component>
 </project>
