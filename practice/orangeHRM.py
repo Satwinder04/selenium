@@ -1,40 +1,25 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-# from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.service import Service
 
-service_obj=Service(r"D:\BEBO-tech\drivers\chromedriver-win64\chromedriver.exe")
-driver=webdriver.Chrome(service=service_obj)
+driver=webdriver.Chrome()
 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
-time.sleep(5)
+time.sleep(1)
 textbox1=driver.find_element(By.NAME,"username")
 textbox1.send_keys("Admin")
-time.sleep(5)
+time.sleep(1)
 textbox2=driver.find_element(By.NAME,"password")
 textbox2.send_keys("admin123")
 # textbox2.send_keys(Keys.RETURN)
-time.sleep(5)
-click=driver.find_element(By.LINK_TEXT,"Login")
+time.sleep(1)
+click=driver.find_element(By.XPATH,"//button[@type='submit']")
 click.click()
+time.sleep(10)
 
 
-# import time
-# from selenium import webdriver
-# from selenium.webdriver.common.by import By
-# from selenium.webdriver.common.keys import Keys
-# from selenium.webdriver.chrome.service import Service
-#
-# service_obj = Service(r"D:\BEBO-tech\drivers\chromedriver-win64\chromedriver.exe")
-# driver = webdriver.Chrome(service=service_obj)
-# driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
-# time.sleep(5)
-# textbox1 = driver.find_element(By.NAME, "username")
-# textbox1.send_keys("Admin")
-# time.sleep(5)
-# textbox2 = driver.find_element(By.NAME, "password")
-# textbox2.send_keys("admin123")
-# textbox2.send_keys(Keys.RETURN)
-# time.sleep(5)
-#
-# driver.quit()
+expected = "Dashboar"
+act = driver.find_element(By.XPATH, "//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']").text
+if expected == act:
+    print("test case pass")
+else:
+    print("test case fail")

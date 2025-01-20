@@ -4,25 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d878119-f0dd-425c-9a64-daf10ba13baa" name="Changes" comment="09/01/2025">
-      <change afterPath="$PROJECT_DIR$/OrangeHRM/XLUtils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrangeHRM/aman/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrangeHRM/logIn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataDriven/intrest/DBintrest/dbinrst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataDriven/intrest/DBintrest/dbint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/db1/youtube.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framwork/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framwork/logfile.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framwork/logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framwork/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framwork/test_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framwork/test_dependency.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framwork/test_grouping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framwork/test_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framwork/test_skip.py" afterDir="false" />
+    <list default="true" id="4d878119-f0dd-425c-9a64-daf10ba13baa" name="Changes" comment="14/01/2025">
+      <change afterPath="$PROJECT_DIR$/POM_Demo/LoginPageObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POM_Demo/test_Login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aman/XLUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aman/cal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/allureReports/first/allureReport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/parallalTesting/test_parallal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/paramsBrowser/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/paramsBrowser/test_filetest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/reports/htmlReport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/reports/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/test_param.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataDriven/intrest/intrst.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataDriven/intrest/intrst.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataDriven/intrest/simple_interest_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/dataDriven/intrest/simple_interest_data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrangeHRM/BugReport.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/BugReport.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrangeHRM/OrangeHRM.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrangeHRM/aman/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrangeHRM/logIn.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/logIn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrangeHRM/test_cases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/test_cases.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/orangeHRM.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/orangeHRM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,50 +65,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_grouping.TestCase.executor": "Run",
-    "Python tests.Python tests in test_grouping.py.executor": "Run",
-    "Python.NodeRltn.executor": "Run",
-    "Python.XLUtils.executor": "Run",
-    "Python.XPath.executor": "Run",
-    "Python.bebo.executor": "Run",
-    "Python.clickcounter.executor": "Run",
-    "Python.datepicker.executor": "Run",
-    "Python.dbinrst.executor": "Run",
-    "Python.dbint.executor": "Debug",
-    "Python.googleScript.executor": "Run",
-    "Python.intrst.executor": "Run",
-    "Python.keys.executor": "Run",
-    "Python.locators.executor": "Run",
-    "Python.mouse.executor": "Run",
-    "Python.mushopLogin.executor": "Run",
-    "Python.myShop.executor": "Run",
-    "Python.myshopContact.executor": "Run",
-    "Python.orangeHRM.executor": "Run",
-    "Python.portfolio.executor": "Run",
-    "Python.practice10.executor": "Run",
-    "Python.practice11.executor": "Run",
-    "Python.practice2.executor": "Run",
-    "Python.q8.executor": "Run",
-    "Python.request.executor": "Run",
-    "Python.scroller.executor": "Run",
-    "Python.selfpractice.executor": "Run",
-    "Python.swaglabs.executor": "Run",
-    "Python.test1.executor": "Run",
-    "Python.youtube.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/BEBO-tech/Selenium/Selenium/OrangeHRM",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for parallal.TestCase.test_edge.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_grouping.TestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in parallal.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_grouping.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NodeRltn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.XLUtils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.XPath.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bebo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.clickcounter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.datepicker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dbinrst.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dbint.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.googleScript.executor&quot;: &quot;Run&quot;,
+    &quot;Python.intrst.executor&quot;: &quot;Run&quot;,
+    &quot;Python.keys.executor&quot;: &quot;Run&quot;,
+    &quot;Python.locators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logIn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mouse.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mushopLogin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.myShop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.myshopContact.executor&quot;: &quot;Run&quot;,
+    &quot;Python.orangeHRM.executor&quot;: &quot;Run&quot;,
+    &quot;Python.portfolio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.q8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.request.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scroller.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selfpractice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.swaglabs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.youtube.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/BEBO-tech/Selenium/Selenium&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BEBO-tech\Selenium\Selenium" />
+      <recent name="D:\BEBO-tech\Selenium\Selenium\aman" />
       <recent name="D:\BEBO-tech\Selenium\Selenium\OrangeHRM" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.youtube">
     <configuration name="youtube" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <option name="ENV_FILES" value="" />
@@ -131,6 +137,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for framwork.parallalTesting.test_parallal.TestCase.test_edge" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/framwork/parallalTesting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;framwork.parallalTesting.test_parallal.TestCase.test_edge&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_grouping.TestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <option name="ENV_FILES" value="" />
@@ -148,6 +169,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for framwork.parallalTesting.test_parallal.TestCase.test_edge" />
         <item itemvalue="Python tests.Python tests for test_grouping.TestCase" />
         <item itemvalue="Python.youtube" />
       </list>
@@ -249,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736371393442</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="14/01/2025">
+      <option name="closed" value="true" />
+      <created>1736834715367</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736834715367</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,6 +289,7 @@
     <MESSAGE value="30/12/2024" />
     <MESSAGE value="03/1/2025" />
     <MESSAGE value="09/01/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="09/01/2025" />
+    <MESSAGE value="14/01/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="14/01/2025" />
   </component>
 </project>
